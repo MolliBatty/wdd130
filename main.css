@@ -1,0 +1,19 @@
+body{
+    background-color: #ffd1e9;
+    font-family:Garamond, Georgia, serif;
+    
+}
+
+a{
+    color:black;
+    font-size: 20px;
+    padding: 25px; /* spacing between links */
+    
+}
+
+img {
+    width:300px;
+}
+main{
+    font-size: 18px;
+}
