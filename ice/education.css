@@ -1,0 +1,34 @@
+:root{
+    --heading-font: Lato, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(89, 158, 214);
+}
+
+h1{
+    font-family: var(--heading-font);
+    text-align: center;
+    color:white;
+    font-size: 40px;
+}
+h1:hover{
+    
+    color: black;
+}
+p{
+    text-align: center;
+    color:white;
+    width: 50%;
+    margin: 0 auto;
+}
+
+ol{
+    
+    width:30%;
+    margin: 0 auto;
+}
+img{
+    width:300px;
+    margin: 0 auto;
+    display: block;
+}
