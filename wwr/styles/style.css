@@ -1,6 +1,8 @@
 /* This page is CSS for WWR homepage */
 /* It is in alphabetical order */
 
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 #background {
     height: 725px;
     background-color: #b9e8ea;
@@ -8,12 +10,20 @@
 
 body{
     background-color: white;
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 .book, .join{
     background-color: #d16200;
     color:#b9e8ea;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -25,6 +35,10 @@ body{
     text-align: center;
 }
 
+.card-img{
+    border: 10px solid black;
+}
+
 div{
     max-width: 1600px;
     margin: 0 auto;
@@ -33,11 +47,13 @@ div{
 footer{
     background-color: #24c9cc;
     color: black;
+    padding: 25px 50px
 }
 
 footer a{
     color: black;
     text-decoration: none;
+    margin-top: 200px;
 }
 
 footer a:hover{
@@ -50,6 +66,10 @@ footer p{
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
 }
 
 header{
@@ -70,6 +90,13 @@ header{
 
 .home-title{
     color:#000000;
+    font-family: "Archivo Black", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h2{
+    margin: 0;
 }
 
 h4{
@@ -78,6 +105,11 @@ h4{
 
 .icon{
     width:80px;
+    padding-top: 10px
+}
+
+#logo_link{
+    padding-top: 5px;
 }
 
 .logo{
@@ -88,26 +120,39 @@ main section{
     text-align: center;
 }
 
+main section img{
+    box-sizing: border-box;
+}
+
 .msg{
     background-color: #d16200;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2{
     color:#b9e8ea;
+    font-family: "Archivo Black", Helvetica, sans-serif;
 }
 
 .msg p{
     color:#b9e8ea;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 nav a{
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
     background-color:#24c9cc;
 }
 
+.rivers-card, .camping-card, .rapids-card{
+    margin:200px 0;
+}
 
