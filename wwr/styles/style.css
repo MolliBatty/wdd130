@@ -46,7 +46,8 @@ body{
 .card-img{
     border: 10px solid black;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px black
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
 }
 
 .card-img:hover{
@@ -110,7 +111,7 @@ header{
 }
 
 #hero-msg{
-    grid-column: 2/3;
+    grid-column: 1/4;
     grid-row: 1/2;
     margin-top: 100px;
 }
